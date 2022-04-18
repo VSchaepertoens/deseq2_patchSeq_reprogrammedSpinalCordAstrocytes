@@ -1,0 +1,3 @@
+for i in {1..44} 
+do sbatch --export=i=${i} mapToGenome_slurm_08072020.sh 
+done
